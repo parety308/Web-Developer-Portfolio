@@ -31,15 +31,20 @@ nav ul{
     list-style: none; 
      color:#474747;
 }
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
-    padding:18px 35px;
+    padding: 18px 35px;
     font-size: 20px;
-    border:none;
+    border: none;
     border-radius: 5px;
 }
+
+.text-center {
+    text-align: center;
+}
+
 .banner,nav{
     display: flex;
     margin:0 38px 0 200px;
@@ -86,9 +91,6 @@ main{
 .item-des{
     font-weight: 700;
 }
-.text-center{
-    text-align: center;
-}
 .skill-con{
     padding-top: 30px;
     display: flex;
@@ -120,8 +122,28 @@ main{
     margin-bottom: 30px;
 
 }
-.resum a{
-    display: block;
-    justify-content: center;
-    text-decoration: none;
+.resum{
+  margin-bottom: 50px;
 }
+/*footer style*/
+.sec-bg{
+    margin-top: 100px;
+    display: flex;
+    background-color: #fff8f3;
+    padding:130px 200px;
+    justify-content: space-between;
+}
+/* footer style */
+.footer-column{
+    margin-right: 100px;
+    padding-right: 100px;
+}
+input{
+       border-radius: 2px;
+       margin-bottom: 5px;
+}
+textarea{
+    border-radius: 10px;
+}
+
+
