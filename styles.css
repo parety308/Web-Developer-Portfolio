@@ -24,12 +24,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+
 }
 nav ul{
     display: flex;
     list-style: none; 
      color:#474747;
+     
 }
 .btn-primary {
     background-color: #FD6E0A;
@@ -126,24 +128,24 @@ main{
   margin-bottom: 50px;
 }
 /*footer style*/
-.sec-bg{
-    margin-top: 100px;
-    display: flex;
-    background-color: #fff8f3;
-    padding:130px 200px;
-    justify-content: space-between;
+
+footer{
+    display:flex;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    gap:100px;
+    
 }
-/* footer style */
+
 .footer-column{
-    margin-right: 100px;
-    padding-right: 100px;
-}
-input{
-       border-radius: 2px;
-       margin-bottom: 5px;
-}
-textarea{
-    border-radius: 10px;
+   width:50%;
 }
 
-
+ footer input,textarea{
+    height: 44px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    margin:3px;
+    border: none;
+}
